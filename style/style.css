@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(/hw_19+20_Nishanbaeva_a/fonts/Gilroy-Medium.ttf);
+}
+ 
+* {    
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy' ;
+} 
+body {
+    font-size: 18px;
+    line-height: 22px;
+} 
+.container {
+    margin: 0 auto; 
+}  
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ul, li {
+    list-style: none;
+}
+.header-nav {
+    padding: 1em 0; 
+    display: none;
+    text-align: center;
+}  
+.header__burger-menu {
+  margin-right: auto;
+}
+/* main */ 
+.main_content__info {
+    display: flex; 
+    justify-content: space-between;
+}
+.main_content__name { 
+    font-size: 47px;
+    line-height: 59px;
+}    
+.main_content__text {
+    padding: 65px;
+    text-align: center;
+}
+.main_content__img {
+    text-align: center;
+}  
+.main_content__lang {
+    display: none;
+}
+.main_content__dekstop {
+    display: none
+}   
+.main_content_about {
+    background: #F6F6F6; 
+} 
+.main_content_about__text {
+    padding: 27px; 
+    text-align: center;
+} 
+/* skills */
+.main_content_skills__text {
+    padding: 84px; 
+    text-align: center; 
+    padding: 27px; 
+}
+.main_content_skills__img {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 27px; 
+} 
+/* portfolio */
+.main_content_portfolio {
+    background: #F6F6F6;   
+      
+}  
+.main_content_portfolio__img {
+        padding: 77px; 
+        top: 35px;   
+        display: flex;
+        flex-direction: column; 
+}
+.main_content_portfolio__url  {
+    text-decoration: underline; 
+    text-align: center;  
+    padding: 33px; 
+    bottom:78px;
+}
+
+/* all title */
+.main_content__title {
+    font-size: 34px;
+    line-height: 42px; 
+    top: 120px; 
+    padding: 50px; 
+    text-align: center;
+} 
+/* footer */ 
+.footer {
+    text-align: center;
+}
+.contacts__title {
+    font-size: 34px;
+    line-height: 42px; 
+    top:42px;  
+    padding: 28px; 
+
+}
+.footer__btn{ 
+    background: #000000;
+    border-radius: 50px; 
+    color:#FFFFFF; 
+    border: none; 
+    font-size: 28px;
+    line-height: 22px;
+    width: 300px;
+    height: 42px;
+}
+.footer__img { 
+    display: flex; 
+    justify-content: space-between;
+    padding: 48px;
+}  
+.footer__text {
+    padding:42px;  
+
+}
+.footer__copyright {
+    color: #828282; 
+
+}   
+/*  tablet */
+@media screen and (min-width: 768px) {
+
+    .header-nav {
+        padding: 1em 0; 
+        display: none;
+        text-align: center;
+    }   
+    .header__burger-menu {
+        margin-right: auto ;
+      } 
+      .main_content__lang {
+        display: none;
+    } 
+    .main_content__dekstop {
+        display: none;
+    }
+}
+ /* dekstop */ 
+ @media screen and (min-width: 992px) {
+     .container {
+        width: 1140px;
+        margin: 0 auto;
+      }  
+      .header{  
+          padding: 1em 0; 
+      }    
+      .header-nav {
+        display: flex; 
+        justify-content: space-between; 
+      }
+      .header__burger-menu {
+          display: none;
+      }    
+      .main_content__dekstop {
+          display: flex; 
+          flex-direction: column;
+          margin: 0 auto;
+      }
+     .main_content__mobile {
+        display: none;
+     }   
+     .main_content__lang {
+         display: inline;
+     }
+      .main_content_skills__img {
+          flex-wrap: wrap;
+    }
+      
+    .footer__img {
+    width: 500px; 
+    margin: 0 auto;
+ }  
